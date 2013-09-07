@@ -1,0 +1,185 @@
+/*
+Theme Name: Foray Reverie Child Theme
+Description: Child theme for the Reverie
+*** Remember to enable CSS in the Reverie functions.php file. :)
+Author: Cassandra Marshall
+Template: reverie
+*/
+ 
+@import url("../reverie/style.css");
+ 
+/* Start child theme customization below */
+
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	
+	
+}
+
+p{
+	color: rgb(30, 30, 30);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	
+	
+}
+
+a, a:link, a:active{
+	color: rgb(167, 30, 38);
+	/*border-bottom: 2px solid rgb(167, 30, 38);*/
+	
+}
+
+a:hover{
+	background-color: rgb(30, 30, 30);
+}	
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Arial, sans-serif;
+	color: rgb(175, 175, 175);
+}
+
+h1{
+	/*font-size: 67px;	*/
+	
+}
+
+
+
+/* Lists */
+
+ul.redBullet {
+	list-style-type: none;	
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.redBullet li:before {
+	list-style-type: none;
+    content: '';
+    background-color: rgb(167, 30, 38);
+    display: inline-block;
+    position: relative;
+    height: 7px;
+    width: 7px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin-right: 15px;
+    
+}
+
+
+
+/* main body */
+
+.content{
+	background-color: #ffffff;	
+	
+	
+}
+
+.contentInner{
+	padding: 5% 7% 50% 7%;
+	
+}
+
+.contain-to-grid{
+	background-image:url('images/blackbox.png');
+	background-position:bottom;
+	background-repeat:repeat-x;
+	background-color: #ffffff;	
+}
+
+/* header */
+
+.subheader{
+	padding-top: 30px;	
+	border-bottom: none;
+}
+
+.logo a, .logo a:hover{
+	border-bottom: none;	
+	background-color: #ffffff;
+}
+
+/* navigation */
+.top-bar-section{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	font-stretch:ultra-expanded;
+	letter-spacing: .1em;
+	text-transform:uppercase;
+	margin-left: 20px;
+	
+}
+
+
+.top-bar-section li a:not(.button){
+	padding: 0 66px;	
+	line-height: 40px;
+	border-bottom:none;
+	list-style-type: none;
+}
+
+.top-bar-section ul li.active > a{
+	border-bottom: 3px solid rgb(167, 30, 38);	
+	
+}
+
+/*
+.top-bar-section .current-menu-item a { 
+	background-color:#ffffff; 
+	}
+	
+.top-bar-section .current_page_item a { 
+	background-color:#ffffff; 
+	}
+	
+	
+	
+.top-bar-section ul.current-menu-item, .top-bar-section li.current-menu-item, .top-bar-section li.current-menu-item a { 
+	background-color:#ffffff; 
+	}
+	
+.top-bar-section ul.current_page_item, .top-bar-section li.current_page_item,  .top-bar-section li.current_page_item a { 
+	background-color:#ffffff; 
+	} */
+
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+	border: none;	
+}
+.top-bar-section .divider, .top-bar-section .divider ul, .top-bar-section ul.divider, .top-bar-section .separator ul{
+	border-style: none;
+	border-width: 0;
+}
+
+/* footer */
+
+.credits{
+	color: #ffffff;	
+	font-size: 12px;
+	margin: 20px 0 20px 0;
+}
+
+.credits a, .credits a:link, .credits a:active{
+	color: #ffffff;
+	border-bottom: 1px solid rgb(167, 30, 38);		
+}
+
+.credits a:hover{
+	background-color: rgb(167, 30, 38);	
+	
+}
+
+.row.full-width{
+	background-color: #000;	
+	
+}
+
+
